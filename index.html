@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <title>Get to Know Me</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -15,17 +16,17 @@ find everything you are looking for here as you browse around!</p>
     <li>and <strong>MORE!</strong></li>
 </ul>
 <p>Feel free to scroll at your leisure, or use some of my fancy hyperlinks!</p>
-<ol>
-    <li>section 1: <a href="#projects">Projects</a></li>
-    <li>section 2: <a href="#work">Work Experience</a></li>
-    <li>section 3: <a href="#contact">Contact Info</a></li>
+<ol id="navigationParent">
+    <li class="navigationItem"><a class="navigationChildItem active" href="#projects">Projects</a></li>
+    <li class="navigationItem"><a class="navigationChildItem active" href="#work">Work Experience</a></li>
+    <li class="navigationItem"><a class="navigationChildItem active" href="#contact">Contact Info</a></li>
 </ol>
 <hr>
 <br>
 <br>
 <br>
 <h2 id="projects">Projects</h2>
-<p>I have been programming my whole life, though for most of it I didn't realise I was, simply because
+<p class="pre">I have been programming my whole life, though for most of it I didn't realise I was, simply because
 I didn't understand what the term meant. However, these past five years I have been working extra hard
 to hone my experience and have be able to create multiple wonderful projects. Below are just a few!</p>
 
@@ -49,7 +50,7 @@ to hone my experience and have be able to create multiple wonderful projects. Be
 <br>
 
 <h2 id="work">Work Experience</h2>
-<p>I have been working non stop for the past five years at a wide array of jobs, but only a few of them have been 
+<p class="pre">I have been working non stop for the past five years at a wide array of jobs, but only a few of them have been 
 in an actual CS capacity. I think the main reason I was so late in entering the field of my study was simply due to
 imposture syndrome. I never really thought I was good enough to be hired by anyone to do things that I considered super 
 important, so I didn't bother. Only after facing and overcoming my fears have I been able to eventually get to where I am now!</p>
@@ -72,7 +73,7 @@ important, so I didn't bother. Only after facing and overcoming my fears have I 
 <h2 id="contact">Contact Info</h2>
 
 <ul>
-    <li>Personal Email: ryan_leach_117@gmail.com</li>
+    <li id="subContact">Personal Email: ryan_leach_117@gmail.com</li>
     <li><a href="https://www.linkedin.com/in/ryanwleach/" target="_blank">LinkedIn Profile</a></li>
     <li><a href="https://github.com/ryle3" target="blank">GitHub</a></li>
 </ul>
